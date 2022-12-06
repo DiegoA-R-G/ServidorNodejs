@@ -1,0 +1,48 @@
+{{!-- Inicio header --}}
+<header class="ca">
+  <nav class="navbar navv navbar-dark bg fixed-top">
+    <div class="container-fluid">
+      <a class="a navbar-brand" href="/personalizados">
+        <p>Personalizados</p>
+      </a>
+      <a class="a navbar-brand" href="/carrito">
+        <p>Carrito</p>
+      </a>
+      <a class="a " href="/"> <img class="logo" src="/IMG/Logo1.png" alt="logo"></a>
+      <a class="a navbar-brand" href="#">
+        <p>Productos</p>
+      </a>
+      <a class="a navbar-brand" href="#">
+        <p>{{ nombre }}</p>
+      </a>
+      <button class="bo navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+        aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">{{titulo}}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/productosVerdes">Productos verdes</a>
+              <a class="nav-link" href="/productosFrutas">Productos frutas</a>
+            </li>
+
+          </ul>
+          </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- End header -->
